@@ -30,3 +30,4 @@ const mapDispatchToProps = (dispatch, ownProps) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(itemContainer);
+// export default connect(null, mapDispatchToProps)(itemContainer);
